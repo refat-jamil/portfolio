@@ -1,5 +1,7 @@
-// App.js
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from './components/Projects';
@@ -13,13 +15,21 @@ function App() {
   };
 
   return (
-    <div className="container mt-5">
+    <div className="container-fluid mt-4">
       <div className="row">
-        <div className="col-sm-3"></div>
-        <div className="col-sm-6">
+        <div className="col-md-4"></div>
+        <div className="col-md-4">
+        {/* Social Media Icons */}
+        <div className="social-icons pb-2">
+            <a href="https://facebook.com"><FontAwesomeIcon icon={faFacebook} className="mr-2 text-dark" /></a>
+            <a href="https://twitter.com"><FontAwesomeIcon icon={faTwitter} className="mr-2 text-dark" /></a>
+            <a href="https://linkedin.com"><FontAwesomeIcon icon={faLinkedin} className="mr-2 text-dark" /></a>
+            <a href="https://github.com"><FontAwesomeIcon icon={faGithub} className="mr-2 text-dark" /></a>
+          </div>
+
           <div className="text-center">
-            <img src={exampleImage} alt="Description of the image" style={{ width: '250px' }} />
-            <h1 className='text-center my-4'>Refat Jamil</h1>
+            <img src={exampleImage} alt="Description of the image" style={{ maxWidth: '250px', height: 'auto' }} />
+            <h1 className='text-center my-2'>Refat Jamil</h1>
           </div>
           <div className="text-center mb-5 pb-3 mt-5">
             <button className={`rounded-pill btn btn-outline-dark px-3 mx-2 ${activeTab === 'about' ? 'active' : ''}`} onClick={() => handleTabClick('about')}>About</button>
@@ -32,8 +42,9 @@ function App() {
             {activeTab === 'projects' && <Projects />}
           </div>
         </div>
-        <div className="col-sm-3"></div>
+        <div className="col-md-4"></div>
       </div>
+     
     </div>
   );
 }

@@ -1,13 +1,12 @@
-// Skills.js
 import React from 'react';
 
 const Skills = () => {
   return (
     <div className="container mt-5">
       <div className="row">
-        <div className="col-md-4">
-          <div className="card mb-3">
-            <div className="card-body">
+        <div className="col-lg-4 col-md-6 mb-4"> {/* Adjust column sizes for different screen sizes */}
+          <div className="card">
+            <div className="card-body text-center">
               <h5 className="card-title">Data Analytics</h5>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">SQL</li>
@@ -17,10 +16,10 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
-          <div className="card mb-3">
-            <div className="card-body">
-              <h5 className="card-title">Django Backend</h5>
+        <div className="col-lg-4 col-md-6 mb-4">
+          <div className="card">
+            <div className="card-body text-center">
+              <h5 className="card-title ">Django Backend</h5>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">Django</li>
                 <li className="list-group-item">Django REST Framework</li>
@@ -30,9 +29,9 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
-          <div className="card mb-3">
-            <div className="card-body">
+        <div className="col-lg-4 col-md-6 mb-4">
+          <div className="card">
+            <div className="card-body text-center">
               <h5 className="card-title">React Frontend</h5>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">React</li>

@@ -31,12 +31,12 @@ const Projects = () => {
   return (
     <div className="container mt-5">
       {projects.map((project, index) => (
-        <div key={project.id} className="row mb-3">
+        <div key={project.id} className={`row mb-3 ${index % 2 === 0 ? '' : 'flex-row-reverse'}`}>
           <div className="col-md-6">
             <img src={project.imgSrc} alt={project.title} className="img-fluid" />
           </div>
           <div className="col-md-6">
-            <div className="card">
+            <div className="card h-100">
               <div className="card-body">
                 <h5 className="card-title">{project.title}</h5>
                 <p className="card-text">{project.description}</p>

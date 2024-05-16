@@ -1,2 +1,16 @@
 /* src/index.css */
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+/* styles.css */
+.social-icons {
+    margin-bottom: 20px; /* Add margin at the bottom to create distance */
+  }
+  
+  .social-icons a {
+    margin-right: 10px; /* Add margin between individual social media icons */
+    font-size: 24px; /* Set the font size of the icons */
+    color: black; /* Set the color of the icons to black */
+  }
+  
+  
