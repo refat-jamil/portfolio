@@ -23,7 +23,7 @@ function App() {
           </div>
           <div className="text-center mb-5 pb-3 mt-5">
             <button className={`rounded-pill btn btn-outline-dark px-3 mx-2 ${activeTab === 'about' ? 'active' : ''}`} onClick={() => handleTabClick('about')}>About</button>
-            <button className={`rounded-pill btn btn-outline-dark px-3 mx-2 ${activeTab === 'skill' ? 'active' : ''}`} onClick={() => handleTabClick('skill')}>Skill</button>
+            <button className={`rounded-pill btn btn-outline-dark px-3 mx-2 ${activeTab === 'skill' ? 'active' : ''}`} onClick={() => handleTabClick('skill')}>Skills</button>
             <button className={`rounded-pill btn btn-outline-dark px-3 mx-2 ${activeTab === 'projects' ? 'active' : ''}`} onClick={() => handleTabClick('projects')}>Projects</button>
           </div>
           <div className="profile">
