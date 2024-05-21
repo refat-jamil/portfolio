@@ -13,4 +13,12 @@
     color: black; /* Set the color of the icons to black */
   }
   
-  
+  .name-left {
+    text-align: left;
+    font-weight: bold;
+    font-size: 2.5rem; /* Adjust font size as needed */
+    color: #333; /* Adjust color as needed */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Adjust letter spacing for a more stylish look */
+    margin-top: 10px; /* Add some margin to separate from the image */
+  }
