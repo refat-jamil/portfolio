@@ -21,10 +21,8 @@ function App() {
         <div className="col-md-4">
         {/* Social Media Icons */}
         <div className="social-icons pb-2">
-            <a href="https://facebook.com"><FontAwesomeIcon icon={faFacebook} className="mr-2 text-dark" /></a>
-            <a href="https://twitter.com"><FontAwesomeIcon icon={faTwitter} className="mr-2 text-dark" /></a>
-            <a href="https://linkedin.com"><FontAwesomeIcon icon={faLinkedin} className="mr-2 text-dark" /></a>
-            <a href="https://github.com"><FontAwesomeIcon icon={faGithub} className="mr-2 text-dark" /></a>
+            <a href="https://www.linkedin.com/in/refat-jamil/"><FontAwesomeIcon icon={faLinkedin} className="mr-2 text-dark" /></a>
+            <a href="https://github.com/refat-jamil"><FontAwesomeIcon icon={faGithub} className="mr-2 text-dark" /></a>
           </div>
 
           <div className="text-center">

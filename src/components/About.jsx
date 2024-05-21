@@ -3,8 +3,8 @@ import React from 'react';
 const About = () => {
   return (
     <div className="pb-md-5 px-md-3 pt-md-4">
-      <p className="h3 mb-3">Hello! 👋 I'm Refat</p>
-      <p className="mb-4">A recent graduate with a Diploma in Computer Technology. I'm passionate about technology and constantly seek opportunities to learn and grow.</p>
+      <p className="h3 mb-3">Hello! 👋😃 I'm Refat</p>
+      <p className="mb-4">I have completed my Diploma in Computer Technology at Patuakhali Polytechnic Institute. I'm passionate about technology and constantly seek opportunities to learn and grow.</p>
       
       <div className="mb-4">
         <h4 className="mb-2">I worked on ...</h4>

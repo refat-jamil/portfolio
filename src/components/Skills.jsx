@@ -9,9 +9,9 @@ const Skills = () => {
             <div className="card-body text-center">
               <h5 className="card-title">Data Analytics</h5>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">SQL</li>
-                <li className="list-group-item">Data Visualization (Tableau, Power BI, Matplotlib, Seaborn)</li>
-                <li className="list-group-item">Python, R</li>
+                <li className="list-group-item">MySQL</li>
+                <li className="list-group-item">Data Visualization (Power BI)</li>
+                <li className="list-group-item">Python</li>
               </ul>
             </div>
           </div>
@@ -37,7 +37,6 @@ const Skills = () => {
                 <li className="list-group-item">React</li>
                 <li className="list-group-item">HTML, CSS, JavaScript</li>
                 <li className="list-group-item">Bootstrap</li>
-                <li className="list-group-item">State Management (Redux)</li>
               </ul>
             </div>
           </div>
