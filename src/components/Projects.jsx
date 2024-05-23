@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "Data Analysis - Online Banking Transaction",
-    description: "A responsive personal website showcasing my skills, projects, and contact information.",
+    description: "This project looks at online banking transactions to find useful information for making decisions. The data is then processed, transformed, and loaded into a warehouse database using ETL (Extract, Transform, Load) techniques facilitated by Python. To visualize the analyzed data and insights, a dashboard is created using PowerBI",
     imgSrc: "https://raw.githubusercontent.com/refat-jamil/Data-Analysis-Online-Banking-Transaction/main/img/1.jpeg",
     link: "https://refat-jamil.github.io/Data-Analysis-Online-Banking-Transaction/"
   },
