@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from './components/Projects';
+import Blogs from './components/blogs';
 
 function App() {
   const [activeTab, setActiveTab] = useState('about');
@@ -23,6 +24,7 @@ function App() {
             <button className={`rounded-pill btn btn-outline-dark px-3 mx-2 ${activeTab === 'about' ? 'active' : ''}`} onClick={() => handleTabClick('about')}>About</button>
             <button className={`rounded-pill btn btn-outline-dark px-3 mx-2 ${activeTab === 'skill' ? 'active' : ''}`} onClick={() => handleTabClick('skill')}>Skills</button>
             <button className={`rounded-pill btn btn-outline-dark px-3 mx-2 ${activeTab === 'projects' ? 'active' : ''}`} onClick={() => handleTabClick('projects')}>Projects</button>
+            <button className={`rounded-pill btn btn-outline-dark px-3 mx-2 ${activeTab === 'blogs' ? 'active' : ''}`} onClick={() => handleTabClick('blogs')}>Blogs</button>
 
           </div>
         
@@ -32,6 +34,8 @@ function App() {
             {activeTab === 'about' && <About />}
             {activeTab === 'skill' && <Skills />}
             {activeTab === 'projects' && <Projects />}
+            {activeTab === 'blogs' && <Blogs />}
+
           </div>
         </div>
         <div className="col-md-4"></div>
