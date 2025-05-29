@@ -2,7 +2,7 @@ import React from 'react';
 import exampleImage from '../images/img.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import cv from '../cv/cv.pdf';
+import cv from '../cv/Resume - Refat Jamil .pdf';
 
 const About = () => {
   const downloadCV = () => {
@@ -25,7 +25,7 @@ const About = () => {
           </div>
           
           {/* Download CV Button */}
-          <button className="btn btn-dark" onClick={downloadCV}>Download CV</button>
+          <button className="btn btn-dark" onClick={downloadCV}>Download Resume</button>
         </div>
 
         <div className="text-center mb-5 pb-3">
